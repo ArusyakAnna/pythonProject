@@ -1,91 +1,39 @@
-# Digit Sum 4
+# Homework
 
-
-# num = int(input())
-# digit_1 = num // 1000
-# two_digit_num = num % 1000 #511
-# digit_2 = two_digit_num // 100 #5.11
-# three_digit_num = two_digit_num % 100
-# digit_3 = three_digit_num // 10
-# digit_4 = two_digit_num % 10
-# print(digit_1 + digit_2 + digit_3 + digit_4)
-
-
-# Area of a right triangle
-
-
-# a = int(input())
-# b = int(input())
-# s = ((a * b) /2)
-# print(s)
-
-# Arithmetic Progression
-
-# a1 = int(input())
-# a2 = int(input())
-# n = int(input())
+#P1
 #
-# d = a2 - a1
-# an = a1 + d*(n-1)
-# print (an)
+# list1 = [5, 10, 15, 20, 25, 50, 20]
+# list1[3] = 200
+# print(list1)
 
-# Century from year
+# P2
 
-# year = int(input())
-# century = 1 + (year - 1) // 100
-# print(century)
+# list1 = [5, 20, 15, 20, 25, 50, 20]
+# list1.remove(20)
+# print(list1)
 
+# P3
 
+# list1 = [10, 20, 4]
+# list2 = [70, 11, 20, 4, 100]
+# list1.sort()
+# list2.sort()
+# print(list1[-2])
+# print(list2[-2])
 
-# Knight’s Possible Moves
+# P4
 
+# dic1 = {1:10, 2:20}
+# dic2 = {3:30, 4:40}
+# dic3 = {5:50, 6:60}
+# dic4 = {}
+# dic4.update(dic1)
+# dic4.update(dic2)
+# dic4.update(dic3)
+# print(dic4)
 
-#Strings 1
-# string = str(input())
-#
-# x = string[len(string)//2 - 1]
-# y = string[len(string)//2]
-# z = string[len(string)//2 + 1]
-#
-# print (x + y +z)
-
-#Strings 2
-
-# s1 = str(input())
-# s2 = str(input())
-#
-# first_part = s1[0:(len(s1)//2)]
-# last_part = s1[len(s1)//2:len(s1)]
-# print(first_part + s2 + last_part)
-
-
-#String 3
-
-# s1 = str(input())
-# s2 = str(input())
-#
-# first_part = s1[0:1]+s2[0:1]
-# middle_part = s1[len(s1)//2] + s2[len(s2)//2]
-# last_part = s1[-1] + s2[-1]
-# print(first_part + middle_part + last_part)
+# P5
 
 
-# Two men
-
-# s1 = int(input())
-# s2 = int(input())
-#
-# print((s2-1),(s1-1))
-
-#Knight’s Possible Moves
-# list_1 = [1, 2, 3, 4, 5]
-# list_2 = [25, 56, 98, 36]
-
-# list_5 = list_1 + list_2
-# print(list_5)
-# list_1.append(list_2)
-# list_1.extend(list_2)
-# print('=' * 100)
-# print(list_2)
-# print(list_1)
+{‘a':1,'b':2,'c':3,'d':4}
 
