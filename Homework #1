@@ -1,6 +1,5 @@
 # Digit Sum 4
 
-
 # num = int(input())
 # digit_1 = num // 1000
 # two_digit_num = num % 1000 #511
@@ -13,11 +12,11 @@
 
 # Area of a right triangle
 
-
 # a = int(input())
 # b = int(input())
 # s = ((a * b) /2)
 # print(s)
+
 
 # Arithmetic Progression
 
@@ -29,6 +28,7 @@
 # an = a1 + d*(n-1)
 # print (an)
 
+
 # Century from year
 
 # year = int(input())
@@ -36,8 +36,24 @@
 # print(century)
 
 
-
 # Knight’s Possible Moves
+
+
+# x = int(input())
+# y = int(input())
+# # possible moves
+# m_1 = ((x - 2), (y - 1))
+# m_2 = ((x - 1), (y - 2))
+# m_3 = ((x + 1), (y - 2))
+# m_4 = ((x + 2), (y - 1))
+# m_5 = ((x - 2), (y - 1))
+# m_6 = ((x - 1), (y + 2))
+# m_7 = ((x + 1), (y + 2))
+# m_8 = ((x + 2), (y + 1))
+# print (m_1, m_2, m_3, m_4, m_5, m_6, m_7, m_8)
+
+
+
 
 
 #Strings 1
@@ -48,6 +64,7 @@
 # z = string[len(string)//2 + 1]
 #
 # print (x + y +z)
+
 
 #Strings 2
 
@@ -77,21 +94,6 @@
 #
 # print((s2-1),(s1-1))
 
-#Knight’s Possible Moves
-
-
-# x = int(input())
-# y = int(input())
-#
-# m_1 = ((x - 2), (y - 1))
-# m_2 = ((x - 1), (y - 2))
-# m_3 = ((x + 1), (y - 2))
-# m_4 = ((x + 2), (y - 1))
-# m_5 = ((x - 2), (y - 1))
-# m_6 = ((x - 1), (y + 2))
-# m_7 = ((x + 1), (y + 2))
-# m_8 = ((x + 2), (y + 1))
-# print (m_1, m_2, m_3, m_4, m_5, m_6, m_7, m_8)
 
 
 
