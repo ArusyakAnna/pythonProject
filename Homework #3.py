@@ -28,3 +28,17 @@
 #             print('Boring')
 #         else:
 #             print('Interesting')
+
+# List 1
+
+# def conv_to_str(lst):
+#     str1 = ""
+
+#     for i in lst:
+#         str1 += i
+
+#     return str1
+
+
+# lst = ['a', 'b', 'c', 'd']
+# print(conv_to_str(lst))
