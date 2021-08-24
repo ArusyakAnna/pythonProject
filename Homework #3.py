@@ -16,17 +16,15 @@
 
 # Boring Numbers
 
-def dig_convert(num):
-    digit_string = str(num)
-    digit_map = map(int, digit_string)
-    digit_list = list(digit_map)
-    return digit_list
+# x = int(input())
 
+# switch = False
 
-List = dig_convert(num=)
-# Result from count matches with result from len()
-result = List.count(List[0]) == len(List)
-if (result):
-   print("Boring")
-else:
-   print("Interesting")
+# y = str(x)
+# lst = list(y)
+# for i in range(0, len(lst)):
+#     for j in range(0, len(lst) - i - 1):
+#         if lst[j] == lst[j + 1]:
+#             print('Boring')
+#         else:
+#             print('Interesting')
