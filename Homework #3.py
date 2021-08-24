@@ -42,3 +42,15 @@
 
 # lst = ['a', 'b', 'c', 'd']
 # print(conv_to_str(lst))
+
+# List 2
+
+# def sec_small_el(list_n):
+#     list_n.sort()
+#     sec_sm_el = list_n[1]
+#     return sec_sm_el
+
+
+# s = [1, 2, -8, -2, 0, -2]
+# print(sec_small_el(s))
+
