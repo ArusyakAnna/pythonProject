@@ -29,6 +29,20 @@
 #         else:
 #             print('Interesting')
 
+# boring
+
+# x = int(input())
+#
+# y = str(x)
+# lst = list(y)
+#
+# result = all(el == lst[0] for el in lst)
+# if result:
+#     print('Bor')
+# else:
+#     print('int')
+
+
 # List 1
 
 # def conv_to_str(lst):
@@ -54,3 +68,12 @@
 # s = [1, 2, -8, -2, 0, -2]
 # print(sec_small_el(s))
 
+
+# Largest number
+
+x = int(input())
+y = list(map(int, str(x)))
+
+print(y)
+
+for i in range()
