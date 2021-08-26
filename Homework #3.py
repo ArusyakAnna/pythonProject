@@ -87,3 +87,13 @@
 #     print('No')
 
 
+# Number Of Divisors
+
+# x = int(input())
+# count_of_div = 2
+# for i in range(2, x//2+1):
+#     if x % i == 0:
+#         count_of_div +=1
+
+# print(count_of_div)
+
