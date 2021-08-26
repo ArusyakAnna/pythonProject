@@ -71,9 +71,19 @@
 
 # Largest number
 
-x = int(input())
-y = list(map(int, str(x)))
+# x = int(input())
+# y = str(x)
+# lst = list(y)
 
-print(y)
+# result = False
+# for i in range(len(lst)):
+#     for j in range(len(lst)):
+#         if lst[0] < lst[j]:
+#             result = True
+# # result = (lst[0] > lst[i] for i in lst)
+# if result:
+#     print('yes')
+# else:
+#     print('No')
 
-for i in range()
+
