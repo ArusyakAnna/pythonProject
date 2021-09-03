@@ -1,0 +1,88 @@
+# Index sum
+#
+# A = [-5,  2.5,  0,  1,  3]
+# Ind = [0, 3, 3, 2]
+#
+# IndSum = sum(A[i] for i in Ind if A[i] > 0)
+# print(IndSum)
+#
+
+# The most divisor-rich number
+#
+#
+# def find_divisor(k):
+#     count = 2
+#     for i in range(2, k // 2 + 1):
+#         if k % i == 0:
+#             count += 1
+#     return count
+#
+#
+# a = int(input())
+# b = int(input())
+# result = 0
+# digit = 0
+#
+# for i in range (a, b + 1):
+#     y = find_divisor(i)
+#     if y > result:
+#         result = find_divisor(i)
+#         digit = i
+# print(digit)
+
+# Tree
+
+# a = int(input())
+# for i in range(1, a+1, 2):
+#     x = ' ' * ((a-i)//2) + '*' * i
+#     print(x)
+
+# The Goldbach Conjecture
+
+# def check_prime_num(n):
+#     dig = 2
+#     while n % dig != 0:
+#         dig +=1
+#     return dig == n
+#
+#
+# x = int(input())
+# if x % 2 != 0:
+#     print('The number is odd')
+#
+# number1 = 0
+# number2 = 0
+# for i in range(2, x):
+#     number1 = check_prime_num(i)
+#     if number1 == 1:
+#         number2 = check_prime_num(x - i)
+#         if number2 == 1:
+#             print('x =', x, '=', i, '+',  x -i)
+#             break
+#
+
+# Palindrome numbers
+# x = int(input())
+# y = int(input())
+# # def check_palindrome(N):
+# for i in range(x, y+1):
+#     digit = str(i)
+#     if digit == digit[::-1]:
+#         print(i)
+#
+#
+#Suffix Sums
+#
+# def seq_B(seq_A):
+#     lst = []
+#     for i in range(len(seq_A)):
+#         sum = 0
+#         for j in range(i, len(seq_A)):
+#             sum += seq_A[j]
+#         lst.append(sum)
+#     return lst
+#
+# print(seq_B([1.5, 2.5, 3]))
+
+
+# Cyclic shift
